@@ -1,0 +1,16 @@
+// Note: C standard library does not support reading zip files directly.
+// One would need external library like zlib. Here is a placeholder example.
+
+#include <stdio.h>
+
+int main() {
+    printf("C standard library cannot read zip files directly.\n");
+    printf("Use zlib or other library to read zip files.\n");
+    return 0;
+}
+
+/*
+Output:
+C standard library cannot read zip files directly.
+Use zlib or other library to read zip files.
+*/
